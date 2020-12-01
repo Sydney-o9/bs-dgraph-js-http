@@ -1,0 +1,29 @@
+{
+  "name": "bs-dgraph-js-http",
+  "version": "1.0.0",
+  "description": "BuckleScript bindings for dgraph-js-http",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bs-platform": "^3.0.0",
+    "jest": "26.6.3",
+    "@glennsl/bs-jest": "0.6.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "dgraph-js-http": "^20.7.3"
+  },
+  "scripts": {
+    "clean": "bsb -clean-world", 
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "files": [   
+    "src/Dgraph.re", 
+    "bsconfig.json"
+  ],
+  "author": "Sydney-o9",
+  "license": "ISC"
+}
