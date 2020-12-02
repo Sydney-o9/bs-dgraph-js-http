@@ -1,6 +1,6 @@
 {
   "name": "bs-dgraph-js-http",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BuckleScript bindings for dgraph-js-http",
   "repository": {
     "type": "git",
